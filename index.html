@@ -13,7 +13,7 @@
     <!--this websites header start from here-->
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt="panda logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,13 +25,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -39,9 +39,9 @@
           </nav>
 
           <!-- image slider -->
-          <section class="container">
+          <section class="container ">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner rounded mt-5">
+                <div class="carousel-inner rounded my-5">
                   <div class="carousel-item active border">
                       <div class="row bg-primary bg-gradient p-5 d-flex align-items-center text-white">
                           <div class="col-lg-7">
@@ -124,7 +124,7 @@
 
         <!-- Product Shoes -->
 
-        <section class="container">
+        <section id="shoes" class="container">
             <h2 class="mb-4">Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 mb-5 row-cols-lg-3 g-4">
                 <div class="col">
@@ -174,7 +174,7 @@
 
         <!-- Product Backpack -->
 
-        <section class="container">
+        <section id="backpack" class="container">
             <h2 class="mb-3">Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 mb-5 row-cols-lg-3 g-4">
                 <div class="col">
@@ -225,7 +225,7 @@
         </section>
 
         <!-- Information submit -->
-        <section class="container d-flex align-items-center justify-content-center bg-primary text-white p-3 rounded-3">
+        <section id="subscribe" class="container d-flex align-items-center justify-content-center bg-primary text-white p-3 rounded-3">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
@@ -240,7 +240,7 @@
                     </div>
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      <label class="form-check-label" for="exampleCheck1">Remember me</label>
                     </div>
                     <button type="submit" class="btn btn-warning text-white">SUBMIT</button>
                   </form>
